@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.calculator-body {
+  width: 250px;
+  height: 350px;
+  border: 1px solid red;
+  margin: 20px auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.calculator-body form {
+  width: 200px;
+  margin: 0 auto;
+}
+
+.calculator-body input {
+  width: 200px;
+  height: 30px;
+}
+
+.buttons ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  width: 250px;
+  padding: 0;
+  margin-left: 20px;
+}
+
+.buttons li {
+  border: 1px solid blue;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+#zero {
+  width: 102px;
+}
